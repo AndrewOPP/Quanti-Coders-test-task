@@ -53,21 +53,25 @@ export const PaymentInfo = () => {
             <Typography sx={s.cardNumberBoxTitle}>Номер карти</Typography>
             <Box sx={s.cardNumberInputBox}>
               <TextField
+                size="small"
                 required
                 sx={s.cardNumberOtherInfoInput}
                 type="number"
               />
               <TextField
+                size="small"
                 required
                 sx={s.cardNumberOtherInfoInput}
                 type="number"
               />
               <TextField
+                size="small"
                 required
                 sx={s.cardNumberOtherInfoInput}
                 type="number"
               />
               <TextField
+                size="small"
                 required
                 sx={s.cardNumberOtherInfoInput}
                 type="number"
@@ -82,6 +86,7 @@ export const PaymentInfo = () => {
             <Box sx={s.cvvBox}>
               <Typography sx={s.cardNumberBoxTitle}>CVC/CVV</Typography>
               <TextField
+                size="small"
                 required
                 sx={s.cardNumberOtherInfoInput}
                 type="number"
