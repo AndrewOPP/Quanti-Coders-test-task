@@ -81,7 +81,11 @@ export const PaymentInfo = () => {
           <Box sx={s.cardNumberOtherInfoBox}>
             <Box sx={s.timeBox}>
               <Typography sx={s.cardNumberBoxTitle}>Термін дії</Typography>
-              <TextField required sx={s.cardNumberOtherInfoInput} />
+              <TextField
+                size="small"
+                required
+                sx={s.cardNumberOtherInfoInput}
+              />
             </Box>
             <Box sx={s.cvvBox}>
               <Typography sx={s.cardNumberBoxTitle}>CVC/CVV</Typography>
