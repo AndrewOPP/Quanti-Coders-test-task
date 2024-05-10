@@ -13,3 +13,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  padding: 5px !important;
+  height: 28px !important;
+}
+.MuiOutlinedInput-notchedOutline.css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-width: 0px !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input:focus {
+  background-color: #ebebeb;
+  border-radius: 6px;
+}
+
+.css-xu2ipv-MuiFormControl-root-MuiTextField-root {
+  border-radius: 6px !important;
+}
+
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

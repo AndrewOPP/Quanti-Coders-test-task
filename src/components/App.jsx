@@ -1,16 +1,24 @@
+import { Box } from '@mui/material';
+import { IndividualForm } from './IndividualForm/IndividualForm';
+import { SupportTypes } from './SupportTypes/SupportTypes';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
+    <Box
+      sx={{
         display: 'flex',
+        flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
+        textAlign: 'center',
+        marginLeft: '50px',
+        marginRight: '50px',
       }}
     >
-      React homework template
-    </div>
+      <form>
+        <IndividualForm />
+        <SupportTypes />
+      </form>
+    </Box>
   );
 };
