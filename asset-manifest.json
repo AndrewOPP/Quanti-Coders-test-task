@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Quanti-Coders-test-task/static/css/main.e816498e.css",
+    "main.css": "/Quanti-Coders-test-task/static/css/main.eab653c4.css",
     "main.js": "/Quanti-Coders-test-task/static/js/main.2f283645.js",
     "index.html": "/Quanti-Coders-test-task/index.html",
-    "main.e816498e.css.map": "/Quanti-Coders-test-task/static/css/main.e816498e.css.map",
+    "main.eab653c4.css.map": "/Quanti-Coders-test-task/static/css/main.eab653c4.css.map",
     "main.2f283645.js.map": "/Quanti-Coders-test-task/static/js/main.2f283645.js.map"
   },
   "entrypoints": [
-    "static/css/main.e816498e.css",
+    "static/css/main.eab653c4.css",
     "static/js/main.2f283645.js"
   ]
 }
