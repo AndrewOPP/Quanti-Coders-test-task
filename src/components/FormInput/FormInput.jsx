@@ -7,6 +7,7 @@ export const FormInput = ({ labelTitle, inputType, isItSmallInput }) => {
     <Box sx={s.inputWrapper}>
       <InputLabel sx={s.inputLabel}>{labelTitle}</InputLabel>
       <TextField
+        size="small"
         required
         sx={isItSmallInput ? s.halfInput : s.input}
         type={inputType}
